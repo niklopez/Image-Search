@@ -1,0 +1,25 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+    text-align: center;
+}
+
+div{
+  display: flex;
+}
+
+.imageContainer{
+/*     display:flex; */
+  justify-content: space-evenly;
+  background-color: white;
+      margin: 0 auto;
+}
+
+#incorrectInput{
+  display: none;
+  color: red;
+  background-color: white;
+  text-align: center;
+}
